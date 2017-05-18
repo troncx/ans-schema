@@ -35,7 +35,7 @@
     {
       "_id": "safas9dafs097asd8911",
       "type": "element_group",
-      "subtype": "seperate",
+      "subtype": "sidebar_separate",
       "content_elements": [
         {
           "type": "quote",
@@ -57,7 +57,7 @@
     {
       "_id": "safas9dafs097asd8911",
       "type": "element_group",
-      "subtype": "joined",
+      "subtype": "sidebar_joined",
       "content_elements": [
         {
           "type": "image",

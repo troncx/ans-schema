@@ -7,18 +7,23 @@ var should = require('should'),
     _ = require('lodash'),
     ans = require('../lib/ans');
 
+var validate = function(json_path, done_callback) {
+    ans.getValidatorForVersion('0.5.8', function(err, validator) {
+      var errors = validator.validate(require(json_path));
+      if(errors) {
+        console.warn('-------Validation errors--------');
+        console.warn(errors);
+        console.warn('--------------------------------');
+      }
+      errors.length.should.eql(-1);
+      done_callback();
+    });
+}
 
 describe("Tronc schemas", function() {
 
-  it("Story schema should not have any errors", function(done) {
-      ans.getValidatorForVersion('0.5.8', function(err, validator) {
-        var errors = validator.validate(require('./fixtures/tronc/story.json'));
-        _.each(errors, (e)=> {
-          console.warn(e);
-        });
-        errors.length.should.eql(-1);
-        done();
-      });
-
+  it("Story schema should not have any errors", function(done_callback) {
+    validate('./fixtures/tronc/story.json', done_callback);
   });
+
 });
