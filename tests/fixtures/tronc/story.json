@@ -1,0 +1,96 @@
+{
+  "_id": "unique ANS id",
+  "type": "story",
+  "version": "0.5.9",
+  "created_date": "2015-06-24T09:50:50.52Z",
+  "last_updated_date": "2015-06-24T09:50:50.52Z",
+  "channels": ["ios", "android"],
+  "promo_items": {
+    "basic": {
+      "_id": "unique ANS id",
+      "type": "image",
+      "version": "0.5.9",
+      "created_date": "2015-06-25T09:50:50.52Z",
+      "credits": {
+        "by": [
+          {
+            "name": "David Montero",
+            "type": "author"
+          }
+        ]
+      },
+      "url": "URL TO THE COWBOY SIGN",
+      "caption": "The Vegas Vic neon sign on East Fremont Street in Las Vegas",
+      "subtitle": "",
+      "width": 800,
+      "height": 640
+    }
+  },
+  "content_elements": [
+    {
+      "_id": "123",
+      "type": "text",
+      "content": "<p>Lorem ipsum</p>"
+    },
+    {
+      "_id": "safas9dafs097asd8911",
+      "type": "element_group",
+      "subtype": "seperate",
+      "content_elements": [
+        {
+          "type": "quote",
+          "text": "...the owners of Pioneer Hotel Inc. -- weren't interested in having Vegas Vic take on a partisan tone.",
+          "credit": "Kevin Hanratty, Attorney"
+        },
+        {
+          "type": "tweet",
+          "url": "http://twitter.com/foo/status/1234bar",
+          "show_media": true
+        }
+      ]
+    },
+    {
+      "_id": "123",
+      "type": "text",
+      "content": "<p>Lorem ipsum</p>"
+    },
+    {
+      "_id": "safas9dafs097asd8911",
+      "type": "element_group",
+      "subtype": "joined",
+      "content_elements": [
+        {
+          "type": "image",
+          "version": "0.5.9",
+          "created_date": "2015-06-25T09:50:50.52Z",
+          "credits": {
+            "by": [
+              {
+                "name": "David Montero",
+                "type": "author"
+              }
+            ]
+          },
+          "url": "URL TO THE COWBOY SIGN",
+          "caption": "The Vegas Vic neon sign on East Fremont Street in Las Vegas",
+          "subtitle": ""
+        },
+        {
+          "type": "quote",
+          "text": "...the owners of Pioneer Hotel Inc. -- weren't interested in having Vegas Vic take on a partisan tone.",
+          "credit": "Kevin Hanratty, Attorney"
+        }
+      ]
+    },
+    {
+      "_id": "123",
+      "type": "text",
+      "content": "<p>Lorem ipsum</p>"
+    },
+    {
+      "_id": "123",
+      "type": "html",
+      "content": "<table>Table data here</table>"
+    }
+  ]
+}

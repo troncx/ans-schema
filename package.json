@@ -27,6 +27,7 @@
   "main": "./lib/ans.js",
   "scripts": {
     "test": "mocha tests/schema-tests-04.js tests/schema-tests-05.js tests/transform-tests tests/validator",
+    "test-tronc": "mocha tests/tronc.js",
     "ans": "node lib/cli.js"
   },
   "bin": {

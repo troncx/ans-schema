@@ -13,7 +13,6 @@ Small, self-contained, attributes such as "had copyright" or "had unique id" are
 
 One can use a variety of third party tools to validate their content against the schema files hosted here on github publicly, such as [Ajv](https://github.com/epoberezkin/ajv).
 
-
 ## Examples
 A few examples are provided of content documents that validate against the Washington Post ANS schema:
 
@@ -70,6 +69,10 @@ ans.getValidatorForVersion('0.5.8', function(err, validator) {
   }
 });
 ```
+
+## Testing tronc fixtures
+
+`npm run test-tronc`
 
 ## Other Commands ##
 
