@@ -6,6 +6,25 @@
   "last_updated_date": "2015-06-24T09:50:50.52Z",
   "channels": ["ios", "android"],
   "promo_items": {
+    "basic": {
+      "_id": "unique ANS id",
+      "type": "image",
+      "version": "0.5.9",
+      "created_date": "2015-06-25T09:50:50.52Z",
+      "credits": {
+        "by": [
+          {
+            "name": "Ansel Adams",
+            "type": "author"
+          }
+        ]
+      },
+      "url": "https://tinyurl.com/mqyonhb",
+      "caption": "Never gonna give you up",
+      "subtitle": "Never gonna let you down",
+      "width": 800,
+      "height": 640
+    }
   },
   "content_elements": [
     {
