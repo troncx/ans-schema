@@ -22,8 +22,12 @@ var validate = function(json_path, done_callback) {
 
 describe("Tronc schemas", function() {
 
-  it("Story schema should not have any errors", function(done_callback) {
-    validate('./fixtures/tronc/story.json', done_callback);
+  // it("Story schema should not have any errors", function(done_callback) {
+  //   validate('./fixtures/tronc/story.json', done_callback);
+  // });
+
+  it("Liveblog schema should not have any errors", function(done_callback) {
+    validate('./fixtures/tronc/liveblog.json', done_callback);
   });
 
 });

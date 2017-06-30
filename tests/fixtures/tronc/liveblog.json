@@ -1,0 +1,17 @@
+{
+  "_id": "123",
+  "type": "story",
+  "version": "0.5.9",
+  "created_date": "2015-06-24T09:50:50.52Z",
+  "last_updated_date": "2015-06-24T09:50:50.52Z",
+  "channels": ["ios", "android"],
+  "promo_items": {
+  },
+  "content_elements": [
+    {
+      "_id": "123",
+      "type": "text",
+      "content": "<p>Lorem ipsum</p>"
+    }
+  ]
+}
