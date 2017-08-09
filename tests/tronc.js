@@ -8,7 +8,7 @@ var should = require('should'),
     ans = require('../lib/ans');
 
 var validate = function(json_path, done_callback) {
-    ans.getValidatorForVersion('0.5.9', function(err, validator) {
+    ans.getValidatorForVersion('0.5.8', function(err, validator) {
       var errors = validator.validate(require(json_path));
       if(errors) {
         console.warn('-------Validation errors--------');
@@ -26,8 +26,12 @@ describe("Tronc schemas", function() {
     validate('./fixtures/tronc/story.json', done_callback);
   });
 
-  it("Liveblog schema should not have any errors", function(done_callback) {
+  it("Liveblog-0 schema should not have any errors", function(done_callback) {
     validate('./fixtures/tronc/liveblog.json', done_callback);
+  });
+
+  it("Liveblog-1 schema should not have any errors", function(done_callback) {
+    validate('./fixtures/tronc/liveblog-1.json', done_callback);
   });
 
 });
